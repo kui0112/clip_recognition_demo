@@ -1,0 +1,41 @@
+{
+  "font_file": "D:\\resources\\Fonts\\微软雅黑.ttf",
+  "device": "cuda",
+  "model_directory": "D:\\models",
+  "fps": 25,
+  "notify_url": "http://localhost:9999/update_display",
+  "enable_network_notify": true,
+  "video_stream": 1,
+  "object_configs": {
+    "苹果": {
+      "name": "苹果",
+      "texts": [
+        "apple"
+      ],
+      "trigger_prob_threshold": 0.90,
+      "summarize_frames": 25,
+      "summarize_prob": 0.90,
+      "frame_proportion": 0.8
+    },
+    "显卡": {
+      "name": "显卡",
+      "texts": [
+        "graphics card"
+      ],
+      "trigger_prob_threshold": 0.95,
+      "summarize_frames": 25,
+      "summarize_prob": 0.95,
+      "frame_proportion": 0.8
+    },
+    "手机": {
+      "name": "手机",
+      "texts": [
+        "smart phone"
+      ],
+      "trigger_prob_threshold": 0.80,
+      "summarize_frames": 25,
+      "summarize_prob": 0.80,
+      "frame_proportion": 0.8
+    }
+  }
+}
